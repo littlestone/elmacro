@@ -50,9 +50,9 @@ Say you have the following text:
 
 With the cursor somewhere on the first line. Press the following keys:
 
-`F3 C-e M-b M-u C-a C-n F4`
+<kbd>F3 C-e M-b M-u C-a C-n F4</kbd>
 
-Then doing `M-x elmacro-show-last-macro upcase-last-word RET` produces a buffer with:
+Then doing <kbd>M-x elmacro-show-last-macro upcase-last-word RET</kbd> produces a buffer with:
 
 ``` emacs-lisp
 (defun upcase-last-word ()
@@ -65,7 +65,7 @@ Then doing `M-x elmacro-show-last-macro upcase-last-word RET` produces a buffer 
   (next-line 1 1))
 ```
 
-You can now do `M-x upcase-last-word` or call it from your elisp code :)
+You can now do <kbd>M-x upcase-last-word</kbd> or call it from your elisp code.
 
 ## Options
 
